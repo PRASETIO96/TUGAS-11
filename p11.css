@@ -1,0 +1,72 @@
+body {
+  font-family: "Playfair display"; /*font*/
+  background-color: #f3f2f1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /*posisi kanan kiri*/
+  align-items: center;
+  height: 100vh; /*ukuran atas bawah form */
+}
+
+.Kontainer {
+  background-color: #ba9d747a;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px dotted #9a6a46; /*menambahkan border dotted */
+}
+
+h2 {
+  text-align: center;
+  color: #0c0c0c;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 1.1em;
+  color: #080808;
+  margin-bottom: 8px; /*batas */
+
+  background-image: url("img/coffee-cup.png"); /* Gambar cangkir kopi kecil */
+  background-position: left center; /*Posisi Icon coffee */
+  background-repeat: no-repeat; /*SUpaya Tidak Mengulang icon */
+  background-size: 20px 20px; /*ukuran icon */
+  padding-left: 40px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 95%; /*ukuran input */
+  padding: 10px; /* ukuran text area */
+  margin-bottom: 15px;
+  border: 1px solid #9b6942;
+  font-size: 1em;
+}
+
+.checkbox-group {
+  margin-bottom: 15px;
+}
+
+.checkbox-group label {
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px; /*ukuran tombol */
+  background-color: #c39e6e;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #8b5e3c;
+  transform: scale(1.05);
+}
